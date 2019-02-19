@@ -1,0 +1,29 @@
+{
+  "name": "offline-error-pwa",
+  "version": "0.0.0",
+  "description": "Muestra Pantalla de error cuando no logra conectarse con el Servidor",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianZelada/offline-error-pwa.git"
+  },
+  "keywords": [
+    "demo",
+    "pwa",
+    "offline"
+  ],
+  "author": "Adrian Pedro Zelada Torrez (zelada_torrez@hotmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdrianZelada/offline-error-pwa/issues"
+  },
+  "homepage": "https://github.com/AdrianZelada/offline-error-pwa#readme"
+}
