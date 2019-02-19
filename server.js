@@ -6,12 +6,6 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/static/index.html');
 });
 
-
-
-app.get('/error', (request, response) => {
-    response.sendFile(__dirname + '/error.html');
-});
-
 app.get('/ping', (request, response) => {
     response.json({
         status:'ok',
@@ -19,10 +13,6 @@ app.get('/ping', (request, response) => {
 });
 
 app.use('/', express.static(__dirname + '/static'));
-app.use('/worker.js', express.static(__dirname + '/static/worker.js'));
-app.use('/offline.js', express.static(__dirname + '/static/offline.js'));
-app.use('/offhtml.js', express.static(__dirname + '/static/offhtml.js'));
-app.use('/service-worker.js', express.static(__dirname + '/static/service-worker.js'));
 
 app.get('*', (request, response) => {
     response.sendFile(__dirname + '/static/index.html');

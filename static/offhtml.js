@@ -28,6 +28,7 @@ self.addEventListener('fetch', function(event) {
     }
 });
 
+
 self.addEventListener('message', function(event){
     serverReachable(event);
 });
