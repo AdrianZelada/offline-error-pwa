@@ -1,7 +1,7 @@
 const pathsToCache = [
     'error.html'
 ];
-const templateError = 'error.html';
+const templateError = '/error.html';
 const offlineName = 'offHtml';
 self.addEventListener('install', function(event) {
     console.log('install');
