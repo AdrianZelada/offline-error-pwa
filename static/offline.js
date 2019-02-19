@@ -1,9 +1,4 @@
-// var pathsToCache = [
-//     '/static/styles.css',
-//     '/static/scripts.js'
-// ];
 
-// const templateError = '/static/error.html';
 const offlineName = 'offline';
 const templateError = '/error';
 self.addEventListener('install', function(event) {
